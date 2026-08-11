@@ -2,6 +2,9 @@
 
 마지막 갱신: v0.2.0 (docs/CHANGELOG.md 참고)
 
+## v0.2.0 릴리스 준비 (main 병합)
+`worktree-docs-and-template-split` 브랜치(0.1.0 초기 빌드 + 0.2.0 공개 템플릿/개인데이터 분리)를 `main`에 병합하기 위해 `v0.2.0` 태그를 추가했다. 병렬로 존재하던 로컬 브랜치 `worktree-dreamy-skipping-pie`는 이 브랜치의 진부분집합으로 확인되어 병합 대상에서 제외했다 — 자세한 판단 근거는 이 커밋의 커밋 메시지 참고.
+
 ## v0.2.0 — 공개 템플릿/개인 데이터 분리
 - `data/*.json`(개인 데이터, gitignore) vs `data/*.example.json`(공개 템플릿, 커밋 대상) 분리
 - `main.js`가 개인 데이터 파일이 없으면 자동으로 example로 폴백 → 클론 직후에도 바로 동작
