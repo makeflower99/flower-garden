@@ -1,0 +1,10 @@
+[
+  {
+    "id": "award-example-1",
+    "title": "수상/자격명 (예시)",
+    "org": "주최기관",
+    "year": "2024",
+    "modes": ["job", "grad"],
+    "priority": { "job": 1, "grad": 1 }
+  }
+]

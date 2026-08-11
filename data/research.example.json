@@ -1,0 +1,14 @@
+[
+  {
+    "id": "research-example-1",
+    "title": "논문/연구 제목 (예시)",
+    "venue": "학회/저널명",
+    "year": "2025",
+    "authors": "홍길동, 공동저자",
+    "link": "",
+    "type": "paper",
+    "modes": ["grad"],
+    "priority": { "job": 9, "grad": 1 },
+    "emphasis": "high"
+  }
+]

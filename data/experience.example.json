@@ -1,0 +1,22 @@
+[
+  {
+    "id": "exp-example-1",
+    "org": "회사명 (예시)",
+    "role": "Data Engineer",
+    "period": "2023.01 - 현재",
+    "stack": ["Python", "SQL", "Airflow", "AWS"],
+    "bullets": {
+      "job": [
+        "일 배치 파이프라인 처리 시간을 40% 단축 (Airflow 태스크 재설계)",
+        "핵심 지표 대시보드를 구축해 의사결정 리드타임 단축"
+      ],
+      "grad": [
+        "대규모 데이터 처리 과정에서 병목을 정의하고 실험적으로 개선 방안을 검증",
+        "파이프라인 안정성에 대한 정량적 평가 지표를 설계"
+      ]
+    },
+    "modes": ["job", "grad"],
+    "priority": { "job": 1, "grad": 2 },
+    "emphasis": "high"
+  }
+]

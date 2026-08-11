@@ -1,0 +1,16 @@
+[
+  {
+    "id": "proj-example-1",
+    "title": "프로젝트명 (예시)",
+    "description": "짧은 프로젝트 설명 1~2문장.",
+    "links": { "repo": "https://github.com/your-id/example", "demo": "" },
+    "stack": ["Python", "PyTorch", "Docker"],
+    "highlights": {
+      "job": ["프로덕션 환경에 배포, 처리량 3배 개선", "월간 사용자 000명 대상 서비스 운영"],
+      "grad": ["문제 정의와 실험 설계 과정 정리", "후속 연구로 확장 가능한 방향 제시"]
+    },
+    "modes": ["job", "grad"],
+    "priority": { "job": 1, "grad": 1 },
+    "emphasis": "high"
+  }
+]

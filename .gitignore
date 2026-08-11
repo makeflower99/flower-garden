@@ -1,0 +1,6 @@
+# 실제 개인 데이터는 커밋하지 않는다 — data/*.example.json이 공개용 템플릿, data/*.json은 로컬 전용 실제 데이터.
+data/*.json
+!data/*.example.json
+
+# 실제 프로필 사진 (템플릿에는 assets/img/avatar-placeholder.svg만 포함)
+assets/img/private/
