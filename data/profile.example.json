@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "basics": {
+    "name": "홍길동 (예시 - 실제 이름으로 교체)",
+    "title": "Data / AI Engineer",
+    "email": "you@example.com",
+    "location": "Seoul, South Korea",
+    "links": {
+      "github": "https://github.com/your-id",
+      "linkedin": "https://linkedin.com/in/your-id",
+      "scholar": "",
+      "blog": ""
+    }
+  },
+  "photo": "assets/img/avatar-placeholder.svg",
+  "summary": {
+    "job": "데이터 파이프라인과 머신러닝 모델을 프로덕션에 배포한 경험을 가진 데이터/AI 엔지니어입니다. 실무 임팩트(성능 개선, 비용 절감, 자동화)를 중심으로 일합니다.",
+    "grad": "데이터와 머신러닝 문제를 정의하고 실험을 설계하는 데 관심이 많은 연구 지향 엔지니어입니다. 대학원에서 [연구 분야]를 더 깊게 탐구하고 싶습니다."
+  },
+  "sectionOrder": {
+    "job": ["summary", "projects", "experience", "skills", "education", "research", "awards"],
+    "grad": ["summary", "research", "education", "projects", "experience", "awards", "skills"]
+  }
+}

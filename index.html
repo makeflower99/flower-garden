@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>홍길동 — Resume / Portfolio</title>
+<meta name="description" content="데이터/AI 이력서 및 포트폴리오" />
+<link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
+<link rel="stylesheet" href="assets/css/main.css" />
+<link rel="stylesheet" href="assets/css/print.css" media="print" />
+</head>
+<body>
+<header class="site-header no-print">
+  <div class="wrap site-header__row">
+    <a class="brand" href="#top">
+      <img class="brand__mark" src="assets/img/favicon.svg" alt="" width="20" height="20" />
+      <span id="brand-name">Resume</span>
+    </a>
+
+    <div class="header-actions">
+      <div class="mode-toggle" role="group" aria-label="이력서 보기 모드">
+        <button type="button" class="mode-toggle__btn" data-mode="job" aria-pressed="false">이직</button>
+        <button type="button" class="mode-toggle__btn" data-mode="grad" aria-pressed="false">대학원</button>
+      </div>
+      <button type="button" id="print-btn" class="btn btn--ghost">PDF로 저장</button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero wrap">
+    <img id="hero-photo" class="hero__photo" src="" alt="" hidden />
+    <div class="hero__text">
+      <h1 id="hero-name">이름</h1>
+      <p id="hero-title" class="hero__title"></p>
+      <p id="hero-summary" class="hero__summary"></p>
+      <ul id="hero-links" class="hero__links"></ul>
+    </div>
+  </section>
+
+  <div id="sections" class="wrap"></div>
+</main>
+
+<footer class="site-footer no-print">
+  <div class="wrap">
+    <span id="footer-note">Built with data-driven resume template.</span>
+  </div>
+</footer>
+
+<template id="tpl-section">
+  <section class="section">
+    <h2 class="section__title"></h2>
+    <div class="section__body"></div>
+  </section>
+</template>
+
+<script type="module" src="assets/js/main.js"></script>
+</body>
+</html>

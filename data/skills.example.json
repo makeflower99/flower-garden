@@ -1,0 +1,23 @@
+[
+  {
+    "id": "skills-languages",
+    "category": "Languages",
+    "items": ["Python", "SQL", "TypeScript"],
+    "modes": ["job", "grad"],
+    "priority": { "job": 1, "grad": 1 }
+  },
+  {
+    "id": "skills-data-ml",
+    "category": "Data / ML",
+    "items": ["PyTorch", "scikit-learn", "Pandas", "Airflow"],
+    "modes": ["job", "grad"],
+    "priority": { "job": 2, "grad": 2 }
+  },
+  {
+    "id": "skills-infra",
+    "category": "Infra",
+    "items": ["Docker", "AWS", "GitHub Actions"],
+    "modes": ["job", "grad"],
+    "priority": { "job": 3, "grad": 3 }
+  }
+]

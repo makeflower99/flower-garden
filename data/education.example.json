@@ -1,0 +1,11 @@
+[
+  {
+    "id": "edu-example-1",
+    "school": "학교명 (예시)",
+    "degree": "학사 - 전공명",
+    "period": "2019.03 - 2023.02",
+    "thesis": "",
+    "modes": ["job", "grad"],
+    "priority": { "job": 1, "grad": 1 }
+  }
+]
